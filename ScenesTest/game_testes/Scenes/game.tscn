@@ -1,0 +1,48 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://ScenesTest/game_testes/Scenes/game.gd" type="Script" id=1]
+[ext_resource path="res://ScenesTest/game_testes/Scenes/chao.tscn" type="PackedScene" id=2]
+[ext_resource path="res://ScenesTest/game_testes/Scenes/player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://ScenesTest/game_testes/bow.tscn" type="PackedScene" id=4]
+[ext_resource path="res://ScenesTest/game_testes/aljava_equip.tscn" type="PackedScene" id=5]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 20, 150 )
+
+[node name="game" type="Node" index="0"]
+
+script = ExtResource( 1 )
+
+[node name="floor" parent="." index="0" instance=ExtResource( 2 )]
+
+position = Vector2( 520, 300 )
+scale = Vector2( 2.15914, 1.25295 )
+
+[node name="player" parent="." index="1" instance=ExtResource( 3 )]
+
+position = Vector2( 640, 280 )
+
+[node name="Node2D" parent="player" index="4" instance=ExtResource( 4 )]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." index="2"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" index="0"]
+
+position = Vector2( 320, 400 )
+shape = SubResource( 1 )
+
+[node name="aljava_equip" parent="." index="3" instance=ExtResource( 5 )]
+
+position = Vector2( 530, 110 )
+
+
