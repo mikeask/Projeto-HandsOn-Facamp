@@ -2,6 +2,8 @@ extends KinematicBody2D
 
 var velMx = 200;
 var vel= Vector2()
+var delay = 0.6
+var vAtk = 0.4
 
 
 var nova_animacao = "";
@@ -14,6 +16,18 @@ func _ready():
 	pass
 
 func _process(delta):
+	movimento()
+	atack(delta)
+	pass
+
+func atack(delta):
+	if Input.is_mouse_button_pressed(1) && delay >=vAtk:
+		get_node("arma").hit()
+		delay = 0
+	if delay  <vAtk:
+		delay +=delta
+
+func movimento():
 	vel.x = 0;
 	vel.y = 0;
 	
@@ -46,8 +60,6 @@ func _process(delta):
 	if animacao !=nova_animacao:
 		get_node("AnimationPlayer").play(nova_animacao)
 		animacao = nova_animacao
-	
-	pass
 
 
 	

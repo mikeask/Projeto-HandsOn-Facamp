@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://ScenesTest/game_testes/Scenes/game.gd" type="Script" id=1]
 [ext_resource path="res://ScenesTest/game_testes/Scenes/chao.tscn" type="PackedScene" id=2]
 [ext_resource path="res://ScenesTest/game_testes/Scenes/player.tscn" type="PackedScene" id=3]
 [ext_resource path="res://ScenesTest/game_testes/bow.tscn" type="PackedScene" id=4]
-[ext_resource path="res://ScenesTest/game_testes/aljava_equip.tscn" type="PackedScene" id=5]
+[ext_resource path="res://ScenesTest/game_testes/bow.gd" type="Script" id=5]
+[ext_resource path="res://ScenesTest/game_testes/aljava_equip.tscn" type="PackedScene" id=6]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -24,7 +25,10 @@ scale = Vector2( 2.15914, 1.25295 )
 
 position = Vector2( 640, 280 )
 
-[node name="Node2D" parent="player" index="4" instance=ExtResource( 4 )]
+[node name="arma" type="Node2D" parent="player" index="4" instance=ExtResource( 4 )]
+
+script = ExtResource( 5 )
+_sections_unfolded = [ "Transform", "Visibility", "Z Index" ]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." index="2"]
 
@@ -41,7 +45,7 @@ bounce = 0.0
 position = Vector2( 320, 400 )
 shape = SubResource( 1 )
 
-[node name="aljava_equip" parent="." index="3" instance=ExtResource( 5 )]
+[node name="aljava_equip" parent="." index="3" instance=ExtResource( 6 )]
 
 position = Vector2( 530, 110 )
 

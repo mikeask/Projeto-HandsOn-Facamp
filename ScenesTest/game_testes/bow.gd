@@ -1,6 +1,5 @@
 extends Node2D
-var delay = 0.6
-var vAtk = 0.4
+
 var pre_flecha = preload("res://ScenesTest/game_testes/flecha.tscn")
 var aljava 
 
@@ -10,18 +9,11 @@ func _ready():
 	pass
 
 func _process(delta):
-	if Input.is_mouse_button_pressed(1) && delay >=vAtk:
-		hit()
-		delay = 0
-		
-		get_node("AnimationPlayer").play("hit")
 	
-	if delay  <vAtk:
-		delay +=delta
 	pass
 	
 func hit():
-	
+	get_node("AnimationPlayer").play("hit")
 	if aljava.ndf()>0:
 		aljava.remuve()
 		var flecha = pre_flecha.instance()
