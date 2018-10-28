@@ -33,4 +33,22 @@ editor_draw_drag_margin = false
 
 position = Vector2( -20.1403, 158.605 )
 
+[node name="LArm" parent="Human/Top" index="1"]
 
+editor/display_folded = false
+
+[node name="AnimationTreePlayer" parent="Human" index="5"]
+
+data = {
+"active": false,
+"connections": [  ],
+"master": NodePath(""),
+"nodes": [ {
+"id": "out",
+"position": Vector2( 99, 70 ),
+"type": "output"
+} ]
+}
+
+
+[editable path="Human"]
