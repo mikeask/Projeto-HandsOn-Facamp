@@ -1,10 +1,11 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://Scenes/game.gd" type="Script" id=1]
-[ext_resource path="res://Scenes/chao.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Scenes/player.tscn" type="PackedScene" id=3]
-[ext_resource path="res://bow.tscn" type="PackedScene" id=4]
-[ext_resource path="res://aljava_equip.tscn" type="PackedScene" id=5]
+[ext_resource path="res://ScenesTest/game_test/Scenes/game.gd" type="Script" id=1]
+[ext_resource path="res://ScenesTest/game_test/Scenes/chao.tscn" type="PackedScene" id=2]
+[ext_resource path="res://ScenesTest/game_test/Scenes/player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://ScenesTest/game_test/bow.tscn" type="PackedScene" id=4]
+[ext_resource path="res://ScenesTest/game_test/aljava_equip.tscn" type="PackedScene" id=5]
+
 
 [sub_resource type="RectangleShape2D" id=1]
 
