@@ -1,7 +1,7 @@
 extends Node2D
 var delay = 0.6
 var vAtk = 0.4
-var pre_flecha = preload("res://flecha.tscn")
+var pre_flecha = preload("res://ScenesTest/game_test/flecha.tscn")
 var aljava 
 
 
