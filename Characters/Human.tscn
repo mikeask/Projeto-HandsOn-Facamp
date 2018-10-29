@@ -313,11 +313,13 @@ tracks/5/keys = {
 
 [node name="Human" type="Node2D"]
 
+editor/display_folded = true
 script = ExtResource( 1 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="Top" type="Node2D" parent="." index="0"]
 
+editor/display_folded = true
 rotation = -0.0078625
 _sections_unfolded = [ "Animation", "Transform" ]
 
@@ -451,7 +453,6 @@ _sections_unfolded = [ "Z Index" ]
 
 [node name="Bottom" type="Node2D" parent="." index="1"]
 
-editor/display_folded = true
 position = Vector2( -35.0737, -10.0211 )
 rotation = -0.318965
 _sections_unfolded = [ "Animation", "Offset", "Region", "Transform" ]
@@ -487,7 +488,7 @@ _sections_unfolded = [ "Offset", "Transform", "Z Index" ]
 
 [node name="Leg02" type="Sprite" parent="Bottom" index="1"]
 
-position = Vector2( -74.34, 18.0819 )
+position = Vector2( -80.6334, 23.0049 )
 rotation = 0.0941143
 scale = Vector2( 0.154296, 0.154296 )
 z_index = 2

@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-var velMx = 200;
+var velMx = 800;
 var vel= Vector2()
 
 
@@ -15,7 +15,7 @@ func _ready():
 func _process(delta):
 	muve()
 	rotation = get_global_mouse_position().angle_to_point(position)
-	get_animation()
+	#get_animation()
 	
 	pass
 	
@@ -44,15 +44,15 @@ func muve():
 	
 func get_animation():
 	
-	if Input.is_action_pressed("esquerda")||Input.is_action_pressed("direita")||Input.is_action_pressed("cima")||Input.is_action_pressed("baixo"):
-		nova_animacao = "walk"
-		pass
-	else :
-		nova_animacao = "stop"
-	
-	if animacao !=nova_animacao:
-		get_node("AnimationPlayer").play(nova_animacao)
-		animacao = nova_animacao
+#	if vel.x != 0 || vel.y != 0:
+#		nova_animacao = "walk"
+#		pass
+#	else :
+#		nova_animacao = "stop"
+#
+#	if animacao !=nova_animacao:
+#		get_node("AnimationPlayer").play(nova_animacao)
+#		animacao = nova_animacao
 	pass
 
 
