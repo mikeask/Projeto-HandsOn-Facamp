@@ -13,6 +13,12 @@ config_version=3
 config/name="Projeto HandsOn Facamp"
 config/icon="res://icon.png"
 
+[autoload]
+
+GlobalDataParser="*res://Scripts/Inventory/GlobalDataParser.gd"
+GlobalItemDatabase="*res://Scripts/Inventory/GlobalItemDatabase.gd"
+GlobalPlayer="*res://Scripts/Inventory/GlobalPlayer.gd"
+
 [display]
 
 window/size/width=1280

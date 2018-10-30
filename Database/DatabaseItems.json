@@ -1,0 +1,33 @@
+{
+	"0": {
+		"name": "empty",
+		"icon": "res://Sprites/Inventory/empty.png",
+		"type": "empty",
+		"description": "empty",
+		"str": 0,
+		"agi": 0,
+		"con": 0,
+		"sellPrice": 0
+	},
+	"1": {
+		"name": "Black Shield",
+		"icon": "res://Sprites/Inventory/WineBottleWB.png",
+		"type": "equipable",
+		"description": "A shield with a dark power inside.",
+		"str": 1,
+		"agi": 3,
+		"con": 1,
+		"sellPrice": 10000
+	},
+
+	"2": {
+		"name": "Black Sword",
+		"icon": "res://Sprites/Inventory/WineBottleWB.png",
+		"type": "equipable",
+		"description": "A shield with a dark power inside.",
+		"str": 3,
+		"agi": 1,
+		"con": 1,
+		"sellPrice": 10000
+	},
+}
