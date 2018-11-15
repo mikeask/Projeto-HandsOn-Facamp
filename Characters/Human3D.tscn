@@ -520,6 +520,66 @@ tracks/3/keys = {
 "update": 0,
 "values": [ Vector3( 0, 0, 0 ), Vector3( 0, 1.58767, 0 ), Vector3( 0, 0, 0 ) ]
 }
+tracks/4/type = "value"
+tracks/4/path = NodePath("Chest/L_Arm_Up:translation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -12.6501, -1.14044, -0.118944 ), Vector3( -12.6501, -1.14044, -0.118944 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Chest/R_ShoulderPlate:rotation_degrees")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 1.37027, 3.49121, 1.04698 ), Vector3( 1.37027, 3.49121, 1.04698 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Chest/R_ShoulderPlate:translation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 9.49957, 0.687374, 2.19672 ), Vector3( 9.49957, 0.687374, 2.19672 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Chest/L_ShoulderPlate:translation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -8.94856, 0.509476, 2.64727 ), Vector3( -8.94856, 0.509476, 2.64727 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Chest/L_ShoulderPlate:rotation_degrees")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0, 5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 3.86016, 0 ), Vector3( 0, 3.86016, 0 ) ]
+}
 
 [sub_resource type="Animation" id=4]
 
@@ -600,14 +660,14 @@ tracks/5/keys = {
 "values": [ Vector3( 10.4446, -1.14044, 3.06836 ), Vector3( 10.1899, -1.14044, 3.04712 ), Vector3( 10.4446, -1.14044, 3.06836 ) ]
 }
 
-[node name="Spatial" type="Spatial" index="0"]
+[node name="Spatial" type="Spatial"]
 
 transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0 )
 _sections_unfolded = [ "Transform", "Visibility" ]
 
 [node name="Chest" type="Position3D" parent="." index="0"]
 
-transform = Transform( 0.904212, 0, -0.427083, 0, 1, 0, 0.427083, 0, 0.904212, 0, 14.8562, 0 )
+transform = Transform( 0.999857, 0, 0.0168908, 0, 1, 0, -0.0168908, 0, 0.999857, 0, 14.8562, 0 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="Chest_Sprite" type="Sprite3D" parent="Chest" index="0"]
@@ -647,7 +707,7 @@ __meta__ = {
 
 [node name="Helmet" type="Position3D" parent="Chest" index="1"]
 
-transform = Transform( 0.983073, 0, 0.183214, 0, 1, 0, -0.183214, 0, 0.983073, 0.706182, 4.07451, 0.565978 )
+transform = Transform( 0.999967, 0, -0.00819623, 0, 1, 0, 0.00819623, 0, 0.999967, 0.96673, 4.07451, 0.524647 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="Helmet_Sprite" type="Sprite3D" parent="Chest/Helmet" index="0"]
@@ -687,7 +747,7 @@ __meta__ = {
 
 [node name="R_Arm_Up" type="Position3D" parent="Chest" index="2"]
 
-transform = Transform( 0.896557, -0.438676, 0.0612168, 0.414765, 0.783001, -0.46355, 0.155415, 0.44099, 0.883953, 9.8351, -1.14044, 2.36792 )
+transform = Transform( 0.884798, 0, 0.465973, 0, 1, 0, -0.465973, 0, 0.884798, 10.1215, -1.14044, 1.47153 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="R_Arm_Up_Sprite" type="Sprite3D" parent="Chest/R_Arm_Up" index="0"]
@@ -727,7 +787,7 @@ __meta__ = {
 
 [node name="R_Arm_Down" type="Position3D" parent="Chest/R_Arm_Up" index="1"]
 
-transform = Transform( 0.500163, 0.040339, -0.864991, -0.00137601, 0.99895, 0.0457905, 0.86593, -0.0217125, 0.499693, 7.21044, -0.556139, 2.38122 )
+transform = Transform( 0.907494, -0.00122637, -0.420063, 8.24364e-005, 0.999996, -0.00274138, 0.420065, 0.00245316, 0.907491, 7.12247, -0.556139, 1.38685 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="R_Arm_Down_Sprite" type="Sprite3D" parent="Chest/R_Arm_Up/R_Arm_Down" index="0"]
@@ -767,7 +827,7 @@ __meta__ = {
 
 [node name="R_Hand" type="Position3D" parent="Chest/R_Arm_Up/R_Arm_Down" index="1"]
 
-transform = Transform( 0.680542, -0.101424, -0.725655, 0.0713158, 0.994839, -0.0721659, 0.72923, -0.00263875, 0.684264, 2.67135, -0.504594, -4.58943 )
+transform = Transform( 0.999452, 0.00109769, -0.0330794, -0.00124185, 0.999989, -0.00433782, 0.0330743, 0.00437653, 0.999443, 2.18626, -0.499245, -4.99019 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="R_Hand_Sprite" type="Sprite3D" parent="Chest/R_Arm_Up/R_Arm_Down/R_Hand" index="0"]
@@ -890,7 +950,7 @@ __meta__ = {
 [node name="L_Arm_Up" type="Position3D" parent="Chest" index="3"]
 
 editor/display_folded = true
-transform = Transform( -0.0305353, 0, -0.999534, 0, 1, 0, 0.999534, 0, -0.0305353, -9.68367, -1.14044, -2.53165 )
+transform = Transform( 0.755155, 0, -0.655547, 0, 1, 0, 0.655547, 0, 0.755155, -12.6501, -1.14044, -0.118944 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="L_Arm_Up_Sprite" type="Sprite3D" parent="Chest/L_Arm_Up" index="0"]
@@ -1138,7 +1198,7 @@ __meta__ = {
 [node name="R_ShoulderPlate" type="Position3D" parent="Chest" index="4"]
 
 editor/display_folded = true
-transform = Transform( 0.956898, -0.141174, -0.253801, 0.107522, 0.984015, -0.141962, 0.269786, 0.108554, 0.956781, 8.71454, 1.56905, 4.37768 )
+transform = Transform( 0.998003, -0.0167824, 0.0608779, 0.018267, 0.999547, -0.0239134, -0.0604491, 0.0249777, 0.997858, 9.49957, 0.687374, 2.19672 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="R_Arm_Up_Sprite" type="Sprite3D" parent="Chest/R_ShoulderPlate" index="0"]
@@ -1179,7 +1239,7 @@ __meta__ = {
 [node name="L_ShoulderPlate" type="Position3D" parent="Chest" index="5"]
 
 editor/display_folded = true
-transform = Transform( 0.956882, 0, -0.290477, 0, 1, 0, 0.290477, 0, 0.956882, -9.03638, 0.509476, 0.810626 )
+transform = Transform( 0.997731, 0, 0.0673216, 0, 1, 0, -0.0673216, 0, 0.997731, -8.94856, 0.509476, 2.64727 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="R_Arm_Up_Sprite" type="Sprite3D" parent="Chest/L_ShoulderPlate" index="0"]
@@ -1261,7 +1321,7 @@ __meta__ = {
 [node name="R_Top_Leg" type="Position3D" parent="Hips" index="1"]
 
 editor/display_folded = true
-transform = Transform( 0.973566, 2.90055e-008, -0.228404, -2.7858e-008, 1, 8.24826e-009, 0.228404, -1.66735e-009, 0.973566, 4.39422, -1.15859, 9.88652 )
+transform = Transform( 0.773969, 2.67842e-008, -0.633223, -2.78579e-008, 1, 8.24827e-009, 0.633223, 1.12564e-008, 0.773969, 9.1529, -1.15859, -0.30679 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="R_Top_Leg_Sprite" type="Sprite3D" parent="Hips/R_Top_Leg" index="0"]
@@ -1384,7 +1444,7 @@ __meta__ = {
 [node name="L_Top_Leg" type="Position3D" parent="Hips" index="2"]
 
 editor/display_folded = true
-transform = Transform( 0.899865, 2.14708e-008, 0.436169, -2.7858e-008, 1, 8.24824e-009, -0.436169, -1.95731e-008, 0.899865, -6.03831, -1.1454, -0.612524 )
+transform = Transform( 0.418861, 4.17877e-009, 0.90805, -2.78579e-008, 1, 8.24826e-009, -0.90805, -2.87513e-008, 0.418861, -9.36185, -1.15859, 3.8922 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="L_Top_Leg_Sprite" type="Sprite3D" parent="Hips/L_Top_Leg" index="0"]
