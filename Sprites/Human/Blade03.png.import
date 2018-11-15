@@ -2,13 +2,13 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/SwordBlade.png-106b06c8753af9047a97d11bb1b5a6a9.s3tc.stex"
-path.etc2="res://.import/SwordBlade.png-106b06c8753af9047a97d11bb1b5a6a9.etc2.stex"
+path.s3tc="res://.import/Blade03.png-0b2e7a75615f5a41a4ce536d2e149e26.s3tc.stex"
+path.etc2="res://.import/Blade03.png-0b2e7a75615f5a41a4ce536d2e149e26.etc2.stex"
 
 [deps]
 
-source_file="res://Sprites/Human/SwordBlade.png"
-dest_files=[ "res://.import/SwordBlade.png-106b06c8753af9047a97d11bb1b5a6a9.s3tc.stex", "res://.import/SwordBlade.png-106b06c8753af9047a97d11bb1b5a6a9.etc2.stex" ]
+source_file="res://Sprites/Human/Blade03.png"
+dest_files=[ "res://.import/Blade03.png-0b2e7a75615f5a41a4ce536d2e149e26.s3tc.stex", "res://.import/Blade03.png-0b2e7a75615f5a41a4ce536d2e149e26.etc2.stex" ]
 
 [params]
 
