@@ -110,13 +110,9 @@ directional_shadow_max_distance = 200.0
 script = ExtResource( 1 )
 _sections_unfolded = [ "Editor", "Light", "Shadow", "Transform", "Visibility" ]
 
-[node name="Char" parent="." index="2" instance=ExtResource( 2 )]
+[node name="Camera" type="Camera" parent="." index="2"]
 
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.86108, -0.027565, 39.7811 )
-
-[node name="Camera" type="Camera" parent="Char" index="4"]
-
-transform = Transform( 1, 0, 0, 0, -4.37114e-008, 1, 0, -1, -4.37114e-008, -0.140602, 84.7146, -2.82307 )
+transform = Transform( 1, 0, 0, 0, -4.37114e-008, 1, 0, -1, -4.37114e-008, 5.72048, 84.687, 36.958 )
 keep_aspect = 1
 cull_mask = 1048575
 environment = null
@@ -130,5 +126,9 @@ size = 50.0
 near = 0.05
 far = 200.0
 _sections_unfolded = [ "Transform" ]
+
+[node name="Char1" parent="." index="3" instance=ExtResource( 2 )]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.86108, -0.027565, 39.7811 )
 
 
