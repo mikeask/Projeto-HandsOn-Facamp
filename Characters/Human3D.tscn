@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=28 format=2]
 
 [ext_resource path="res://Sprites/Human/Armor01.png" type="Texture" id=1]
 [ext_resource path="res://Sprites/Human/Head.png" type="Texture" id=2]
@@ -12,14 +12,15 @@
 [ext_resource path="res://Equipment/Sword02.tscn" type="PackedScene" id=10]
 [ext_resource path="res://Equipment/Sword03.tscn" type="PackedScene" id=11]
 [ext_resource path="res://Equipment/Axe01.tscn" type="PackedScene" id=12]
-[ext_resource path="res://Sprites/Human/Shield.png" type="Texture" id=13]
-[ext_resource path="res://Sprites/Human/Blade01.png" type="Texture" id=14]
-[ext_resource path="res://Sprites/Human/ChainMailTest.png" type="Texture" id=15]
-[ext_resource path="res://Sprites/Human/ShoulderPlate01.png" type="Texture" id=16]
-[ext_resource path="res://Sprites/Human/Waist2.png" type="Texture" id=17]
-[ext_resource path="res://Sprites/Human/Waist.png" type="Texture" id=18]
-[ext_resource path="res://Sprites/Human/Leg01.png" type="Texture" id=19]
-[ext_resource path="res://Sprites/Human/Shoes01.png" type="Texture" id=20]
+[ext_resource path="res://Equipment/Sword04.tscn" type="PackedScene" id=13]
+[ext_resource path="res://Sprites/Human/Shield.png" type="Texture" id=14]
+[ext_resource path="res://Sprites/Human/Blade01.png" type="Texture" id=15]
+[ext_resource path="res://Sprites/Human/ChainMailTest.png" type="Texture" id=16]
+[ext_resource path="res://Sprites/Human/ShoulderPlate01.png" type="Texture" id=17]
+[ext_resource path="res://Sprites/Human/Waist2.png" type="Texture" id=18]
+[ext_resource path="res://Sprites/Human/Waist.png" type="Texture" id=19]
+[ext_resource path="res://Sprites/Human/Leg01.png" type="Texture" id=20]
+[ext_resource path="res://Sprites/Human/Shoes01.png" type="Texture" id=21]
 
 [sub_resource type="Animation" id=1]
 
@@ -1220,8 +1221,7 @@ _sections_unfolded = [ "Transform", "Visibility" ]
 
 [node name="Chest" type="Position3D" parent="." index="0"]
 
-editor/display_folded = true
-transform = Transform( 0.93155, 0, 0.363612, 0, 1, 0, -0.363612, 0, 0.93155, 0, 14.8562, 0 )
+transform = Transform( 1, 0, 0.000399075, 0, 1, 0, -0.000399075, 0, 1, 0, 14.8562, 0 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="Chest_Sprite" type="Sprite3D" parent="Chest" index="0"]
@@ -1262,7 +1262,7 @@ __meta__ = {
 [node name="Head" type="Position3D" parent="Chest" index="1"]
 
 editor/display_folded = true
-transform = Transform( 0.96305, 0, -0.269325, 0, 1, 0, 0.269325, 0, 0.96305, 0.949036, 4.07451, 0.527454 )
+transform = Transform( 1, 0, -0.00051248, 0, 1, 0, 0.00051248, 0, 1, 0.555067, 4.07451, 0.58995 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="Head_Sprite" type="Sprite3D" parent="Chest/Head" index="0"]
@@ -1384,8 +1384,7 @@ __meta__ = {
 
 [node name="R_Arm_Up" type="Position3D" parent="Chest" index="3"]
 
-editor/display_folded = true
-transform = Transform( 0.363398, 0.0373775, 0.930883, -0.0266051, 0.999205, -0.0297346, -0.931254, -0.0139607, 0.364103, 10.1366, -1.14044, 1.54648 )
+transform = Transform( 0.672089, -0.00104072, 0.740469, 0.000855131, 1, 0.00062932, -0.74047, 0.00021024, 0.672089, 9.70255, -1.14044, 2.43855 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="R_Arm_Up_Sprite" type="Sprite3D" parent="Chest/R_Arm_Up" index="0"]
@@ -1425,8 +1424,7 @@ __meta__ = {
 
 [node name="R_Arm_Down" type="Position3D" parent="Chest/R_Arm_Up" index="1"]
 
-editor/display_folded = true
-transform = Transform( 0.900714, 0.0806343, -0.426864, -0.129236, 0.987869, -0.086089, 0.414744, 0.132708, 0.900208, 7.12271, -0.556139, 1.38949 )
+transform = Transform( 0.935469, 0, -0.353408, 0, 0.999999, 0, 0.353408, 0, 0.935469, 7.12744, -0.556139, 1.443 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="R_Arm_Down_Sprite" type="Sprite3D" parent="Chest/R_Arm_Up/R_Arm_Down" index="0"]
@@ -1466,7 +1464,7 @@ __meta__ = {
 
 [node name="R_Hand" type="Position3D" parent="Chest/R_Arm_Up/R_Arm_Down" index="1"]
 
-transform = Transform( 0.9866, 0.162304, 0.016662, -0.162501, 0.986644, 0.0112385, -0.0146154, -0.0137956, 0.999797, 2.18692, -0.499252, -4.98965 )
+transform = Transform( 1, 0, -5.96045e-008, 0, 1, 0, 5.96046e-008, 0, 0.999999, 2.20035, -0.4994, -4.97855 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="R_Hand_Sprite" type="Sprite3D" parent="Chest/R_Arm_Up/R_Arm_Down/R_Hand" index="0"]
@@ -1547,7 +1545,7 @@ __meta__ = {
 
 [node name="Blade_Position" type="Position3D" parent="Chest/R_Arm_Up/R_Arm_Down/R_Hand" index="2"]
 
-transform = Transform( 0.802148, -0.113648, 0.586211, 0.14074, 0.990047, -0.000645121, -0.580303, 0.083021, 0.810159, -2.0719, 0.505613, -6.13661 )
+transform = Transform( 0.810159, 0.000290992, 0.586212, 0.000107743, 1, -0.000645298, -0.586211, 0.000585953, 0.810159, -2.08527, 0.505611, -6.12694 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="Sword_Blade" parent="Chest/R_Arm_Up/R_Arm_Down/R_Hand/Blade_Position" index="0" instance=ExtResource( 9 )]
@@ -1560,14 +1558,20 @@ visible = false
 
 [node name="Sword_Blade3" parent="Chest/R_Arm_Up/R_Arm_Down/R_Hand/Blade_Position" index="2" instance=ExtResource( 11 )]
 
+visible = false
+
 [node name="Sword_Blade4" parent="Chest/R_Arm_Up/R_Arm_Down/R_Hand/Blade_Position" index="3" instance=ExtResource( 12 )]
 
 visible = false
 
+[node name="Sword_Blade5" parent="Chest/R_Arm_Up/R_Arm_Down/R_Hand/Blade_Position" index="4" instance=ExtResource( 13 )]
+
+transform = Transform( 1, -5.82077e-011, 0, -1.74623e-010, 1, -5.82077e-011, 5.96046e-008, 0, 1, 0, -1.90735e-006, -10.2403 )
+
 [node name="L_Arm_Up" type="Position3D" parent="Chest" index="4"]
 
 editor/display_folded = true
-transform = Transform( 0.967681, 0, -0.25218, 0, 1, 0, 0.25218, 0, 0.967681, -14.3407, -1.14044, 2.21395 )
+transform = Transform( 0.713512, 0, -0.700644, 0, 1, 0, 0.700644, 0, 0.713512, -12.6501, -1.14044, -0.118944 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="L_Arm_Up_Sprite" type="Sprite3D" parent="Chest/L_Arm_Up" index="0"]
@@ -1759,7 +1763,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 13 )
+texture = ExtResource( 14 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -1801,7 +1805,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 14 )
+texture = ExtResource( 15 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -1842,7 +1846,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 15 )
+texture = ExtResource( 16 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -1883,7 +1887,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 15 )
+texture = ExtResource( 16 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -1897,7 +1901,7 @@ __meta__ = {
 [node name="R_ShoulderPlate" type="Position3D" parent="Chest" index="5"]
 
 editor/display_folded = true
-transform = Transform( 0.977823, -0.0122642, 0.209067, 0.0174101, 0.999589, -0.022791, -0.208701, 0.0259256, 0.977634, 9.20528, 0.679024, 1.44805 )
+transform = Transform( 0.998003, -0.0167824, 0.0608779, 0.018267, 0.999547, -0.0239134, -0.060449, 0.0249778, 0.997857, 9.49957, 0.687374, 2.19672 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="R_Arm_Up_Sprite" type="Sprite3D" parent="Chest/R_ShoulderPlate" index="0"]
@@ -1924,7 +1928,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 16 )
+texture = ExtResource( 17 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -1938,7 +1942,7 @@ __meta__ = {
 [node name="L_ShoulderPlate" type="Position3D" parent="Chest" index="6"]
 
 editor/display_folded = true
-transform = Transform( 0.988184, 0, 0.153273, 0, 1, 0, -0.153273, 0, 0.988184, -8.71409, 0.509476, 2.95338 )
+transform = Transform( 0.997731, 0, 0.0673216, 0, 1, 0, -0.0673216, 0, 0.997731, -8.94856, 0.509476, 2.64727 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="R_Arm_Up_Sprite" type="Sprite3D" parent="Chest/L_ShoulderPlate" index="0"]
@@ -1965,7 +1969,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 16 )
+texture = ExtResource( 17 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -1979,7 +1983,7 @@ __meta__ = {
 [node name="Bottom_Chest" type="Position3D" parent="Chest" index="7"]
 
 editor/display_folded = true
-transform = Transform( 0.976543, 0, -0.215325, 0, 0.999999, 0, 0.215325, 0, 0.976543, 0, 0, 0 )
+transform = Transform( 0.988327, 0, 0.152352, 0, 0.999999, 0, -0.152352, 0, 0.988327, 0, 0, 0 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="Bottom_Chest_Sprite" type="Sprite3D" parent="Chest/Bottom_Chest" index="0"]
@@ -2006,7 +2010,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 17 )
+texture = ExtResource( 18 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -2046,7 +2050,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 18 )
+texture = ExtResource( 19 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -2087,7 +2091,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 18 )
+texture = ExtResource( 19 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -2128,7 +2132,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 18 )
+texture = ExtResource( 19 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -2141,6 +2145,7 @@ __meta__ = {
 
 [node name="R_Top_Leg" type="Position3D" parent="Hips" index="3"]
 
+editor/display_folded = true
 transform = Transform( 0.77397, 2.67842e-008, -0.633223, -2.78579e-008, 1, 8.24827e-009, 0.633223, 1.12563e-008, 0.77397, 9.1529, -1.15859, -0.30679 )
 _sections_unfolded = [ "Transform" ]
 
@@ -2168,7 +2173,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 19 )
+texture = ExtResource( 20 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -2208,7 +2213,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 19 )
+texture = ExtResource( 20 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -2249,7 +2254,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 20 )
+texture = ExtResource( 21 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -2262,6 +2267,7 @@ __meta__ = {
 
 [node name="L_Top_Leg" type="Position3D" parent="Hips" index="4"]
 
+editor/display_folded = true
 transform = Transform( 0.418861, 4.17876e-009, 0.908051, -2.78579e-008, 1, 8.24826e-009, -0.908051, -2.87512e-008, 0.418861, -9.36185, -1.15859, 3.8922 )
 _sections_unfolded = [ "Transform" ]
 
@@ -2289,7 +2295,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 19 )
+texture = ExtResource( 20 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -2329,7 +2335,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 19 )
+texture = ExtResource( 20 )
 vframes = 1
 hframes = 1
 frame = 0
@@ -2370,7 +2376,7 @@ transparent = true
 shaded = false
 double_sided = true
 alpha_cut = 2
-texture = ExtResource( 20 )
+texture = ExtResource( 21 )
 vframes = 1
 hframes = 1
 frame = 0

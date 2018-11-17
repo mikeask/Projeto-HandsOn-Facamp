@@ -2,29 +2,28 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/Waist2.png-3a2a3e7bb69a03d497d090c0ef091ca4.s3tc.stex"
-path.etc2="res://.import/Waist2.png-3a2a3e7bb69a03d497d090c0ef091ca4.etc2.stex"
+path="res://.import/Waist2.png-3a2a3e7bb69a03d497d090c0ef091ca4.stex"
 
 [deps]
 
 source_file="res://Sprites/Human/Waist2.png"
-dest_files=[ "res://.import/Waist2.png-3a2a3e7bb69a03d497d090c0ef091ca4.s3tc.stex", "res://.import/Waist2.png-3a2a3e7bb69a03d497d090c0ef091ca4.etc2.stex" ]
+dest_files=[ "res://.import/Waist2.png-3a2a3e7bb69a03d497d090c0ef091ca4.stex" ]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
-flags/mipmaps=true
-flags/anisotropic=true
+flags/mipmaps=false
+flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=false
-process/premult_alpha=true
-process/HDR_as_SRGB=true
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
 stream=false
-size_limit=0
+size_limit=2048
 detect_3d=false
 svg/scale=1.0

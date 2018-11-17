@@ -2,29 +2,28 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/Arm01.png-c5913ce9409f22ed1460d08231ef1b08.s3tc.stex"
-path.etc2="res://.import/Arm01.png-c5913ce9409f22ed1460d08231ef1b08.etc2.stex"
+path="res://.import/Arm01.png-c5913ce9409f22ed1460d08231ef1b08.stex"
 
 [deps]
 
 source_file="res://Sprites/Human/Arm01.png"
-dest_files=[ "res://.import/Arm01.png-c5913ce9409f22ed1460d08231ef1b08.s3tc.stex", "res://.import/Arm01.png-c5913ce9409f22ed1460d08231ef1b08.etc2.stex" ]
+dest_files=[ "res://.import/Arm01.png-c5913ce9409f22ed1460d08231ef1b08.stex" ]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
-flags/mipmaps=true
-flags/anisotropic=true
+flags/mipmaps=false
+flags/anisotropic=false
 flags/srgb=2
-process/fix_alpha_border=false
-process/premult_alpha=true
-process/HDR_as_SRGB=true
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
 stream=false
-size_limit=0
+size_limit=2048
 detect_3d=false
 svg/scale=1.0
