@@ -2,28 +2,29 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cape_Bot.png-5ea5923bf874572e132e909154a7c9a7.stex"
+path.s3tc="res://.import/Cape_Bot.png-5ea5923bf874572e132e909154a7c9a7.s3tc.stex"
+path.etc2="res://.import/Cape_Bot.png-5ea5923bf874572e132e909154a7c9a7.etc2.stex"
 
 [deps]
 
 source_file="res://Sprites/Human/Cape_Bot.png"
-dest_files=[ "res://.import/Cape_Bot.png-5ea5923bf874572e132e909154a7c9a7.stex" ]
+dest_files=[ "res://.import/Cape_Bot.png-5ea5923bf874572e132e909154a7c9a7.s3tc.stex", "res://.import/Cape_Bot.png-5ea5923bf874572e132e909154a7c9a7.etc2.stex" ]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
-flags/mipmaps=false
-flags/anisotropic=false
+flags/mipmaps=true
+flags/anisotropic=true
 flags/srgb=2
-process/fix_alpha_border=true
-process/premult_alpha=false
-process/HDR_as_SRGB=false
+process/fix_alpha_border=false
+process/premult_alpha=true
+process/HDR_as_SRGB=true
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

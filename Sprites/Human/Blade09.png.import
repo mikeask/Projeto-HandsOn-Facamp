@@ -2,13 +2,13 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/Arm01.png-c5913ce9409f22ed1460d08231ef1b08.s3tc.stex"
-path.etc2="res://.import/Arm01.png-c5913ce9409f22ed1460d08231ef1b08.etc2.stex"
+path.s3tc="res://.import/Blade09.png-bf1ddda662ade5bcc470bc8300a3bcaf.s3tc.stex"
+path.etc2="res://.import/Blade09.png-bf1ddda662ade5bcc470bc8300a3bcaf.etc2.stex"
 
 [deps]
 
-source_file="res://Sprites/Human/Arm01.png"
-dest_files=[ "res://.import/Arm01.png-c5913ce9409f22ed1460d08231ef1b08.s3tc.stex", "res://.import/Arm01.png-c5913ce9409f22ed1460d08231ef1b08.etc2.stex" ]
+source_file="res://Sprites/Human/Blade09.png"
+dest_files=[ "res://.import/Blade09.png-bf1ddda662ade5bcc470bc8300a3bcaf.s3tc.stex", "res://.import/Blade09.png-bf1ddda662ade5bcc470bc8300a3bcaf.etc2.stex" ]
 
 [params]
 
