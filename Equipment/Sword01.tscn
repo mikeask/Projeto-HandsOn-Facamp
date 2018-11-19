@@ -3,7 +3,7 @@
 [ext_resource path="res://Sprites/Human/Blade01.png" type="Texture" id=1]
 [ext_resource path="res://Sprites/Human/Handle01.png" type="Texture" id=2]
 
-[node name="Sword_Blade" type="Position3D"]
+[node name="Sword_Blade" type="Position3D" index="0"]
 
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.0314 )
 _sections_unfolded = [ "Transform" ]
@@ -32,7 +32,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 1 )
@@ -64,7 +64,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 2 )

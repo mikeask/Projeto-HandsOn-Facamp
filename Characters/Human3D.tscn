@@ -1167,7 +1167,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 1 )
@@ -1183,7 +1183,6 @@ __meta__ = {
 
 [node name="Head" type="Position3D" parent="Chest" index="1"]
 
-editor/display_folded = true
 transform = Transform( 0.999881, 0, -0.0154602, 0, 1, 0, 0.0154602, 0, 0.999881, 0, 4.07451, 0.584451 )
 _sections_unfolded = [ "Transform" ]
 
@@ -1208,7 +1207,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 2 )
@@ -1243,7 +1242,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 3 )
@@ -1256,7 +1255,6 @@ _sections_unfolded = [ "Flags" ]
 
 [node name="Helmet" type="Position3D" parent="Chest/Head" index="2"]
 
-editor/display_folded = true
 transform = Transform( 1, 0, -7.45058e-009, 0, 1, 0, 7.45058e-009, 0, 1, 1.19209e-007, 0.889774, 1.19209e-007 )
 _sections_unfolded = [ "Transform" ]
 
@@ -1282,7 +1280,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 4 )
@@ -1317,7 +1315,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 5 )
@@ -1330,7 +1328,6 @@ _sections_unfolded = [ "Flags" ]
 
 [node name="Necklace" type="Position3D" parent="Chest" index="2"]
 
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.829236, 1.15814 )
 _sections_unfolded = [ "Transform" ]
 
@@ -1355,7 +1352,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 6 )
@@ -1395,7 +1392,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 7 )
@@ -1435,7 +1432,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 8 )
@@ -1475,7 +1472,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 9 )
@@ -1515,7 +1512,6 @@ visible = false
 
 [node name="L_Arm_Up" type="Position3D" parent="Chest" index="4"]
 
-editor/display_folded = true
 transform = Transform( 0.22183, 0, -0.975086, 0, 1, 0, 0.975086, 0, 0.22183, -8.72081, -1.03473, -1.10069 )
 _sections_unfolded = [ "Transform" ]
 
@@ -1540,7 +1536,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 7 )
@@ -1556,7 +1552,6 @@ __meta__ = {
 
 [node name="L_Arm_Down" type="Position3D" parent="Chest/L_Arm_Up" index="1"]
 
-editor/display_folded = true
 transform = Transform( 0.989004, -0.0021464, 0.147869, 0.00487544, 0.999825, -0.0180958, -0.147804, 0.0186178, 0.98884, -4.38062, -0.556137, 1.78486 )
 _sections_unfolded = [ "Transform" ]
 
@@ -1581,7 +1576,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 8 )
@@ -1597,7 +1592,6 @@ __meta__ = {
 
 [node name="L_Hand" type="Position3D" parent="Chest/L_Arm_Up/L_Arm_Down" index="1"]
 
-editor/display_folded = true
 transform = Transform( 0.976744, 0, 0.214408, 0, 1, 0, -0.214408, 0, 0.976744, -1.2863, -0.499401, -5.11239 )
 _sections_unfolded = [ "Transform" ]
 
@@ -1622,7 +1616,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 9 )
@@ -1788,7 +1782,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 18 )
@@ -1804,7 +1798,6 @@ __meta__ = {
 
 [node name="ChainMail" type="Position3D" parent="Chest/L_Arm_Up" index="2"]
 
-editor/display_folded = true
 transform = Transform( -0.14638, 0, 0.989707, 0, 1, 0, -1.0123, 0, -0.143112, 1.85619, 1.00465, 1.28237 )
 _sections_unfolded = [ "Transform" ]
 
@@ -1829,7 +1822,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 19 )
@@ -1845,7 +1838,6 @@ __meta__ = {
 
 [node name="R_ShoulderPlate" type="Position3D" parent="Chest" index="5"]
 
-editor/display_folded = true
 transform = Transform( 0.99352, -0.0154633, 0.112589, 0.018267, 0.999547, -0.0239134, -0.112169, 0.0258152, 0.993352, 9.53561, 0.687374, 1.95028 )
 _sections_unfolded = [ "Transform" ]
 
@@ -1870,7 +1862,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 20 )
@@ -1886,7 +1878,6 @@ __meta__ = {
 
 [node name="L_ShoulderPlate" type="Position3D" parent="Chest" index="6"]
 
-editor/display_folded = true
 transform = Transform( 0.999709, 0, 0.0241099, 0, 1, 0, -0.0241099, 0, 0.999709, -8.95445, 0.509476, 2.38759 )
 _sections_unfolded = [ "Transform" ]
 
@@ -1911,7 +1902,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 20 )
@@ -1927,7 +1918,6 @@ __meta__ = {
 
 [node name="Bottom_Chest" type="Position3D" parent="Chest" index="7"]
 
-editor/display_folded = true
 transform = Transform( 0.98472, 0, 0.174147, 0, 0.999999, 0, -0.174147, 0, 0.98472, 0, 0, 0 )
 _sections_unfolded = [ "Transform" ]
 
@@ -1952,7 +1942,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 21 )
@@ -1965,7 +1955,6 @@ _sections_unfolded = [ "Flags" ]
 
 [node name="Armor" type="Position3D" parent="Chest" index="8"]
 
-editor/display_folded = true
 transform = Transform( 1, 0, 5.82077e-011, 0, 1, 0, -5.82077e-011, 0, 1, 0, 0.213735, 0 )
 
 [node name="Chest_Sprite" type="Sprite3D" parent="Chest/Armor" index="0"]
@@ -1990,7 +1979,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 22 )
@@ -2025,7 +2014,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 23 )
@@ -2041,7 +2030,6 @@ __meta__ = {
 
 [node name="Hips" type="Position3D" parent="." index="1"]
 
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.29556, 0 )
 _sections_unfolded = [ "Transform" ]
 
@@ -2066,7 +2054,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 24 )
@@ -2082,7 +2070,6 @@ __meta__ = {
 
 [node name="R_Butt" type="Position3D" parent="Hips" index="1"]
 
-editor/display_folded = true
 transform = Transform( 0.978916, 0, -0.204266, 0, 1, 0, 0.204266, 0, 0.978916, 3.26521, -0.571343, 2.37838 )
 _sections_unfolded = [ "Transform" ]
 
@@ -2107,7 +2094,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 24 )
@@ -2123,7 +2110,6 @@ __meta__ = {
 
 [node name="L_Butt" type="Position3D" parent="Hips" index="2"]
 
-editor/display_folded = true
 transform = Transform( 0.972153, 0, 0.234348, 0, 1, 0, -0.234348, 0, 0.972153, -4.45562, -0.571343, 5.26626 )
 _sections_unfolded = [ "Transform" ]
 
@@ -2148,7 +2134,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 24 )
@@ -2188,7 +2174,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 25 )
@@ -2228,7 +2214,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 25 )
@@ -2268,7 +2254,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 26 )
@@ -2303,7 +2289,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 27 )
@@ -2340,7 +2326,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 25 )
@@ -2380,7 +2366,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 25 )
@@ -2420,7 +2406,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 26 )
@@ -2452,7 +2438,7 @@ opacity = 1.0
 pixel_size = 0.01
 axis = 2
 transparent = true
-shaded = false
+shaded = true
 double_sided = true
 alpha_cut = 2
 texture = ExtResource( 27 )
