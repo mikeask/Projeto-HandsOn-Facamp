@@ -112,7 +112,7 @@ _sections_unfolded = [ "Editor", "Light", "Shadow", "Transform", "Visibility" ]
 
 [node name="Camera" type="Camera" parent="." index="2"]
 
-transform = Transform( 1, 0, 0, 0, -4.37114e-008, 1, 0, -1, -4.37114e-008, 5.72048, 84.687, 36.958 )
+transform = Transform( 1, 0, 0, 0, -4.37114e-008, 1, 0, -1, -4.37114e-008, 13.1104, 111.091, 11.7085 )
 keep_aspect = 1
 cull_mask = 1048575
 environment = null
@@ -131,4 +131,69 @@ _sections_unfolded = [ "Transform" ]
 
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.86108, -0.027565, 39.7811 )
 
+[node name="Char2" parent="." index="4" instance=ExtResource( 2 )]
 
+transform = Transform( -0.806156, 0, 0.591703, 0, 1, 0, -0.591703, 0, -0.806156, 26.3742, -0.027565, -16.7605 )
+
+[node name="Helmet" parent="Char2/Chest/Head" index="1"]
+
+visible = false
+
+[node name="Blade_Position" parent="Char2/Chest/R_Arm_Up/R_Arm_Down/R_Hand" index="1"]
+
+editor/display_folded = false
+
+[node name="Sword_Blade" parent="Char2/Chest/R_Arm_Up/R_Arm_Down/R_Hand/Blade_Position" index="0"]
+
+visible = false
+
+[node name="Sword_Blade4" parent="Char2/Chest/R_Arm_Up/R_Arm_Down/R_Hand/Blade_Position" index="3"]
+
+visible = true
+
+[node name="L_Arm_Up" parent="Char2/Chest" index="4"]
+
+editor/display_folded = false
+
+[node name="L_Arm_Down" parent="Char2/Chest/L_Arm_Up" index="1"]
+
+editor/display_folded = false
+
+[node name="ChainMail2" parent="Char2/Chest/L_Arm_Up/L_Arm_Down" index="2"]
+
+visible = false
+
+[node name="ChainMail" parent="Char2/Chest/L_Arm_Up" index="2"]
+
+visible = false
+
+[node name="R_ShoulderPlate" parent="Char2/Chest" index="5"]
+
+visible = false
+
+[node name="L_ShoulderPlate" parent="Char2/Chest" index="6"]
+
+visible = false
+
+[node name="Armor" parent="Char2/Chest" index="8"]
+
+visible = false
+
+[node name="R_Top_Leg" parent="Char2/Hips" index="3"]
+
+transform = Transform( 0.77397, 2.67842e-008, -0.633223, -2.78579e-008, 1, 8.24827e-009, 0.633223, 1.12563e-008, 0.77397, 9.1529, -1.15859, -0.30679 )
+
+[node name="R_Foot_Sprite" parent="Char2/Hips/R_Top_Leg/R_Bot_Leg/R_Foot" index="0"]
+
+visible = false
+
+[node name="L_Top_Leg" parent="Char2/Hips" index="4"]
+
+transform = Transform( 0.418861, 4.17876e-009, 0.908051, -2.78579e-008, 1, 8.24826e-009, -0.908051, -2.87512e-008, 0.418861, -9.36185, -1.15859, 3.8922 )
+
+[node name="L_Foot_Sprite" parent="Char2/Hips/L_Top_Leg/L_Bot_Leg/L_Foot" index="0"]
+
+visible = false
+
+
+[editable path="Char2"]

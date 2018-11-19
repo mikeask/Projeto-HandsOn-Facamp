@@ -7,12 +7,13 @@
 [ext_resource path="res://Sprites/Human/ArmDown.png" type="Texture" id=5]
 [ext_resource path="res://Sprites/Human/Hand.png" type="Texture" id=6]
 [ext_resource path="res://Sprites/Human/Blade01.png" type="Texture" id=7]
-[ext_resource path="res://Sprites/Human/SwordHandle.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/Human/Handle01.png" type="Texture" id=8]
 [ext_resource path="res://Sprites/Human/Shield.png" type="Texture" id=9]
 [ext_resource path="res://Sprites/Human/Armor01.png" type="Texture" id=10]
 [ext_resource path="res://Sprites/Human/Leg01.png" type="Texture" id=11]
 [ext_resource path="res://Sprites/Human/Shoes01.png" type="Texture" id=12]
 [ext_resource path="res://Sprites/Human/Waist.png" type="Texture" id=13]
+
 
 
 
