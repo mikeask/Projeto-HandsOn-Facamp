@@ -1,7 +1,7 @@
 [gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://Scripts/HumanScripts/HumanController.gd" type="Script" id=1]
-[ext_resource path="res://Sprites/Human/NordHelmet01.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Human/Helmet01.png" type="Texture" id=2]
 [ext_resource path="res://Sprites/Human/ArmUp.png" type="Texture" id=3]
 [ext_resource path="res://Sprites/Human/ShoulderPlate01.png" type="Texture" id=4]
 [ext_resource path="res://Sprites/Human/ArmDown.png" type="Texture" id=5]
@@ -13,6 +13,7 @@
 [ext_resource path="res://Sprites/Human/Leg01.png" type="Texture" id=11]
 [ext_resource path="res://Sprites/Human/Shoes01.png" type="Texture" id=12]
 [ext_resource path="res://Sprites/Human/Waist.png" type="Texture" id=13]
+
 
 
 

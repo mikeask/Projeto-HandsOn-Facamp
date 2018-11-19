@@ -12,7 +12,7 @@ __meta__ = {
 
 [node name="Sword_Blade_Sprite" type="Sprite3D" parent="." index="0"]
 
-transform = Transform( 1.53422, 0.168173, 7.35108e-009, 0, -5.46392e-008, 1.25, 0.168173, -1.53422, -6.7063e-008, 0.707969, 0, 1.27489 )
+transform = Transform( 1.53422, 0.168173, 7.35108e-009, 0, -5.46392e-008, 1.25, 0.168173, -1.53422, -6.7063e-008, 0.707969, -0.15666, 1.27489 )
 layers = 1
 material_override = null
 cast_shadow = 1
